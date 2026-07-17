@@ -1,0 +1,10 @@
+[package]
+name = "ReiView"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = "0.35.0"
+egui = "0.35.0"
+sysinfo = "0.39.6"
+windows = { version = "0.62.2", features = ["Win32_Foundation", "Win32_Graphics_Dxgi", "Win32_System_Power", "Win32_UI_WindowsAndMessaging"] }
